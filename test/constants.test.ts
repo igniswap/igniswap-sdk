@@ -12,9 +12,9 @@ describe('constants', () => {
     // it('matches computed bytecode hash', () => {
     //   expect(COMPUTED_INIT_CODE_HASH).toEqual(INIT_CODE_HASH)
     // })
-    //TODO: Replace with real PancakePair.json
+    //TODO: Replace with real IgniPair.json
     it('matches computed bytecode hash', () => {
-      expect(INIT_CODE_HASH).toEqual('0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66')
+      expect(INIT_CODE_HASH).toEqual('0x10b42a8965a75f47cad0f821e1bafc28afddcb44bb182d9df12679637d5b8df0')
     })
   })
 })
