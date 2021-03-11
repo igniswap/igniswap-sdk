@@ -35,8 +35,8 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0xf67C1492fD15ccba695cA98aEF666caf3d6bC8FC';
-var INIT_CODE_HASH = '0x8d87e521467a42069b9c3c3f7cb031c3837c96daa8b76ef5973c0c14559a78ea';
+var FACTORY_ADDRESS = '0xf7f7f229CC86715d2d187B041FD15bCFb960563B';
+var INIT_CODE_HASH = '0x10e34a561ae3dcbd7ec208b62f6ee05dd61c653d225a8bcb3c231eda14dcdf9f';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -758,7 +758,7 @@ var Pair = /*#__PURE__*/function () {
   function Pair(tokenAmountA, tokenAmountB) {
     var tokenAmounts = tokenAmountA.token.sortsBefore(tokenAmountB.token) // does safety checks
     ? [tokenAmountA, tokenAmountB] : [tokenAmountB, tokenAmountA];
-    this.liquidityToken = new Token(tokenAmounts[0].token.chainId, Pair.getAddress(tokenAmounts[0].token, tokenAmounts[1].token), 18, 'Igni-LP', 'IgniLiquidity');
+    this.liquidityToken = new Token(tokenAmounts[0].token.chainId, Pair.getAddress(tokenAmounts[0].token, tokenAmounts[1].token), 18, 'IGNI-LP', 'IgniSwap LP');
     this.tokenAmounts = tokenAmounts;
   }
 
