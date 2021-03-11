@@ -1056,10 +1056,9 @@
     "@ethersproject/properties" "^5.0.0"
     "@ethersproject/strings" "^5.0.0"
 
-"@igniswap/igni-swap-core@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@igniswap/igni-swap-core/-/igni-swap-core-0.1.0.tgz#ce1bb3ef9a1a3b7b5eb9b32870958ab6d66ac4fa"
-  integrity sha512-Upvo4o7GlBu9rHIrdhri0aRmvvD+r3e2+YD9F6ZDS/1IHiJtfiHJ7/7INXg0xFkQkPacW3tB1mpSJSpynkwYzg==
+"@igniswap/igni-swap-core@https://github.com/igniswap/igni-swap-core.git":
+  version "1.0.0"
+  resolved "https://github.com/igniswap/igni-swap-core.git#dfbd5bbc2bad4eb851f9c071c90a888b63395aa1"
   dependencies:
     truffle "^5.1.41"
     truffle-flattener "^1.4.4"
